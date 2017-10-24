@@ -26,5 +26,10 @@ public class MemberDAOImpl implements MemberDAO {
 		isUse=(n>0)? false:true;
 		return isUse;
 	}
+	
+	@Override
+	public MemberVO loginCheck(MemberVO member) {
+		return sqlsession.selectOne(NS+".loginCheck", member.getId());
+	}
 
 }
