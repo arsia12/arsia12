@@ -15,7 +15,7 @@
    <bean class="org.springframework.jdbc.datasource.DriverManagerDataSource" id="dataSource">
       <property value="oracle.jdbc.driver.OracleDriver" name="driverClassName" />
       <property value="jdbc:oracle:thin:@localhost:1521:XE" name="url" />
-      <property value="demo" name="username" />
+      <property value="shop" name="username" />
       <property value="Abcd1234" name="password" />
    </bean>
    
