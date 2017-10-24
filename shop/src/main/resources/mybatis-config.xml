@@ -5,12 +5,12 @@
 <configuration>
 	
 	
- 	<!-- <typeAliases>
- 		
+ 	<typeAliases>
+ 		<typeAlias alias="member" type="com.member.model.MemberVO"/>
  	</typeAliases> 
  	
  	<mappers>
-		
-	</mappers> -->
+		<mapper resource="mapper/UserMapper.xml"/>
+	</mappers>
 	
 </configuration>
