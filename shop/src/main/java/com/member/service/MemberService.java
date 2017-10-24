@@ -10,3 +10,4 @@ public interface MemberService {
 	
 	MemberVO loginCheck(MemberVO member) throws NotUserException;
 }
+ 

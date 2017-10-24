@@ -20,4 +20,4 @@
 <a href="<%=myctx%>/logout">·Î±×¾Æ¿ô</a>
 </c:if>
 </body>
-</html>
+</html> 

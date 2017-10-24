@@ -18,4 +18,4 @@
 	<script>		
 		location.href="${loc}";
 	</script>		
-</c:if>
+</c:if> 

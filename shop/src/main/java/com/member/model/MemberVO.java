@@ -21,7 +21,7 @@ public class MemberVO {
 		super();
 	}
 	
-	
+	 
 	public int getMidx() {
 		return midx;
 	}

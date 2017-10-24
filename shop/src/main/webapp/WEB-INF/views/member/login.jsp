@@ -23,7 +23,7 @@
 		if(!lf.pwd.value){
 			alert('비밀번호를 입력해주세요');
 			lf.pwd.focus();
-			return;
+			return; 
 		}
 		lf.submit();
 	}

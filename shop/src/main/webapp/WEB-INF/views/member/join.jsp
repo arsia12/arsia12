@@ -97,7 +97,7 @@
     	if(!jf.pwd.value){
     		alert("비밀번호를 입력하세요");
     		jf.pwd.focuse();
-    		return;
+    		return; 
     	}
     	if(jf.pwd.value !== jf.pwd2.value){
     		alert("비밀번호를 확인해주세요");

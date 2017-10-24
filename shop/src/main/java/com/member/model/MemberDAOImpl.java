@@ -24,7 +24,7 @@ public class MemberDAOImpl implements MemberDAO {
 		boolean isUse=false;
 		int n=sqlsession.selectOne(NS+".idCheck", id);
 		isUse=(n>0)? false:true;
-		return isUse;
+		return isUse; 
 	}
 	
 	@Override

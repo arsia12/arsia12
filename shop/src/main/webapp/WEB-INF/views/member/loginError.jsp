@@ -9,4 +9,4 @@
 	alert('<%=exception.getMessage()%>');
 	location.href="${pageContext.request.contextPath}/login";	
 
-</script>
+</script> 

@@ -8,3 +8,4 @@ public interface MemberDAO {
 	
 	MemberVO loginCheck(MemberVO member);
 }
+ 

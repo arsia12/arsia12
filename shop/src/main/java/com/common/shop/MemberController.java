@@ -70,7 +70,7 @@ public class MemberController {
 		
 		if(loginMember!=null) {
 			ses.setAttribute("loginMember", loginMember);
-		}
+		} 
 		
 		String returnpage=(String)ses.getAttribute("returnPage");
 		if(returnpage==null) {

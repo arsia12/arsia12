@@ -26,6 +26,6 @@
 		
 		<select id="loginCheck" parameterType="string" resultType="member">
 			select * from member where id=#{id}
-		</select>
+		</select> 
 		 
 	</mapper>
