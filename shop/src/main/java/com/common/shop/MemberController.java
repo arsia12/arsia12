@@ -39,7 +39,7 @@ public class MemberController {
 	@RequestMapping(value="/joinEnd")
 	public String joinEnd(Model m, @ModelAttribute("member") MemberVO member) {
 		int n = memberService.insertUser(member);
-		String msg=(n>0)? "°¡ÀÔ¼º°ø":"°¡ÀÔ½ÇÆÐ";
+		String msg=(n>0)? "ê°€ìž…ì™„ë£Œ":"ê°€ìž…ì‹¤íŒ¨";
 		String loc="index";
 		return util.addMsgLoc(m, msg, loc);
 	}
@@ -90,5 +90,7 @@ public class MemberController {
 	public String exceptionHandler(Exception ex) {
 		return "member/loginError";
 	}
+	
+	//ì•ˆë…• í—¤í—¤
 	
 }
